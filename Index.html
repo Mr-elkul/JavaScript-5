@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider JS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="assests/css/style.css">
+</head>
+<body>
+
+     <div id="carousel" class="carousel">
+
+        <div id="slides-container" class="slides">
+            <div class="slide item active">Slide 1</div>
+            <div class="slide item">Slide 2</div>
+            <div class="slide item">Slide 3</div>
+            <div class="slide item">Slide 4</div>
+            <div class="slide item">Slide 5</div>
+        </div> 
+
+      
+
+        <div id="controls-container" class="controls">
+            <span id="pause-play-btn" class="control-pause"><i class="far fa-pause-circle"></i></span>
+            <span id="prev-btn" class="control-prev"><i class="fas fa-angle-left"></i></span>
+            <span id="next-btn" class="control-next"><i class="fas fa-angle-right"></i></span>
+          </div>
+
+        <ol id="indicators-container" class="indicators">
+            <li class="indicator active" data-slide-to="0"></li>
+            <li class="indicator" data-slide-to="1"></li>
+            <li class="indicator" data-slide-to="2"></li>
+            <li class="indicator" data-slide-to="3"></li>
+            <li class="indicator" data-slide-to="4"></li>
+          </ol>  
+        
+        
+    </div>
+    
+<script src="assests/js/Carousel.js"></script>  
+<script src="assests/js/main.js"></script>
+</body>
+</html>
